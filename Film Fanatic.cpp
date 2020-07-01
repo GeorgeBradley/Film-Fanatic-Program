@@ -8,6 +8,7 @@ int main()
     Films objFilms;
 
     objFilms.Add_Film();
-
+    objFilms.Increment_Times_Watched();
+    objFilms.Display_All_Films();
    
 }

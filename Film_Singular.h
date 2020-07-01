@@ -8,7 +8,7 @@ public:
 	std::string sFilmRating;
 	int iTimesWatched;
 
-	Film(std::string sFN, std::string sFR, int iTW);
-
+	Film(std::string sFN, std::string sFR, int iTW); //Three argument Constructor
+	void Display_Film()const;
 };
 
